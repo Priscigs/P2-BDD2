@@ -1,0 +1,16 @@
+# create "employees", "personal_data", "profesional_data"
+
+# list
+# disable 'employees'
+# scan 'employees'
+# describe "employees"
+# enable 'employees'
+# scan 'employees'
+# describe "employees"
+
+# put "employees", "Geoffrey", "personal_data:age", 32
+# alter "employees", { NAME => "profesional_data", VERSIONS => 3 , REPLICATION_SCOPE => 8 }
+
+# count "employees"
+# drop "employees"
+# list
