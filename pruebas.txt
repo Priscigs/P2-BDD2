@@ -9,8 +9,17 @@
 # describe "employees"
 
 # put "employees", "Geoffrey", "personal_data:age", 32
+put "employees", "Dani", "personal_data:age", 15
 # alter "employees", { NAME => "profesional_data", VERSIONS => 3 , REPLICATION_SCOPE => 8 }
 
 # count "employees"
 # drop "employees"
 # list
+
+Is_Enable 'employees'   
+
+
+## creando otra tabla
+create "mascotas", "edad_mascotas", "raza_mascota"
+##metiendo datos 
+# put "mascotas", "Lolita", "edad_mascotas:age", 5
